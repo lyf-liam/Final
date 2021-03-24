@@ -58,7 +58,7 @@ public class register extends AppCompatActivity {
                             Class.forName("com.mysql.jdbc.Driver").newInstance();
                             System.out.println("驱动加载成功！！！");
 
-                            //2、获取与数据库的连接 youwu
+                            //2、获取与数据库的连接
                             connection = DriverManager.getConnection(url, sqlName, sqlPassword);
                             System.out.println("连接数据库成功！！！");
 
